@@ -1,0 +1,373 @@
+@media only screen and (min-width: 1200px) {
+    .up .container,
+    #search .container,
+    #welcome .container,
+    #cooperate .container,
+    #offers .container,
+    #subBreadСrumbs .container{
+        padding:0;
+    }
+  
+     
+}
+
+@media only screen and (max-width: 1410px) {
+       #slider1 .glyphicon-chevron-left, #slider1 .glyphicon-chevron-right{
+            top: 100%;
+    }
+       .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+               margin-left: 450px;
+       }
+       .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+               margin-right: 450px;
+       }
+}
+
+@media only screen and (max-width: 1200px){
+     .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+               margin-left: 350px;
+       }
+       .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+               margin-right: 350px;
+       }
+
+ 
+    
+    .up .container,
+    #search .container,
+    #welcome .container,
+    #cooperate .container,
+    #offers .container,
+    #subBreadСrumbs .container{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .upRight{
+        margin-top: 6px;
+        margin-left:0;
+        margin-right:3px;
+    }
+   
+    .search select{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .search input[type="text"], .search select, .search input[type="submit"]{
+        width:235px;
+    }
+     .search input[type="text"], .search select{
+         padding-left:13px;
+         font-size:13px;
+         background-position: 95% center;
+     }
+      .carousel-control.right{
+        right: 0;
+    }
+    .carousel-control.left{
+        left: 0;
+    }
+    .video_welcome_wrapa video{
+        width:100%;
+        margin-bottom: 15px;
+    }
+    .circle{
+        float: none;
+    margin: 0 auto;
+    }
+    .servicesBlock p{
+        text-align: center;
+    margin-top: 10px;
+    }
+    .servicesBlock {
+    margin-bottom: 50px;
+}
+    .servicesBottom{
+        margin-top: 20px;
+    }
+    .cooperate img{
+       width: 270px;
+    }
+    #cooperate h4,
+    #cooperate p,
+    .cooperate {
+        text-align: center;
+    }
+    #offers a, #offers img{
+    width:100%;
+    height: 100%;
+}
+    .search{
+        text-align:center;
+    }
+    .getAjob#lastNews h3{
+        font-size: 72px;
+            margin-top: 100px;
+    }
+    .getAjob#lastNews h2{
+            font-size: 52px;
+             
+    }
+    .search{
+        background-image:none;
+    }
+    .breadСrumbs{
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+               margin-left: 250px;
+       }
+       .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+               margin-right: 250px;
+       }
+
+
+
+
+
+    .getAjob#lastNews h3{
+        font-size: 52px;
+        margin-top: 100px;
+    }
+    .getAjob#lastNews h2{
+            font-size: 45px;
+            
+    }
+
+    #lastNews h2{
+            margin-bottom: 90px;
+            margin-top:70px;
+    }
+    #offers a, #offers img{
+        width:270px;
+    }
+    
+      #offers .offersMore{
+              margin-top: 15px;
+            margin-bottom: 75px;
+    }
+      #offers{
+          padding-bottom:0;
+      }
+      .offersLine, .cooperateLine{
+        display:none;
+    }
+
+      #cooperate a{
+          margin-top: 20px;
+      }
+}
+
+@media only screen and (max-width: 768px){
+   
+     .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+               margin-left: 0px;
+       }
+       .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+               margin-right: 0px;
+       }
+
+    
+     .getAjob#lastNews h3{
+           margin-bottom: 0;
+          margin-top: 34px;
+              font-size: 35px;
+    }
+    .getAjob#lastNews h2{
+                font-size: 24px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 41px;
+    font-size: 40px;
+    }
+
+
+      
+    .lastNewsPlay{
+            margin-top: 16px;
+    }
+    #lastNews h2 {
+        font-size:60px;
+    margin-bottom: 50px;
+        margin-top: 73px;
+}
+    #lastNews h3 {
+ 
+    font-size: 48px;
+}
+    #contacts span{
+        line-height: 47px;
+        font-size: 18px;
+    }
+    .formBottom input[type="text"]{
+            border: 1px solid #adadad;
+            height: 40px;
+    }
+		.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+		background-color: #333;
+	}
+	.dropdown-submenu>a:after {
+	  transform: rotate(90deg);
+}
+    .subUpRight{
+        text-align:left;
+            padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    header{
+        height:auto;
+    }
+
+    /*menu*/
+    .delimiter{
+        display: none!important;
+    }
+    .navbar-toggle{
+            float: left;
+                margin-bottom: 20px;
+    }
+    .navbar-default .navbar-toggle{
+            border:0;
+    background-color: inherit;
+    transition: background-color 1s;
+    margin-left: 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color:#d02217;
+    }
+    .navbar-default .navbar-toggle:active .icon-bar{
+        background-color:#d02217;
+    }
+     .navbar-default .navbar-toggle:focus .icon-bar{
+        background-color:#d02217;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar{
+        background-color:#000;
+    }
+    #menu{
+        width:100%;
+    }
+    .navbar-default .navbar-nav > li > a{
+            padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color:#FFF;
+    }
+    /*end menu*/
+    .search{
+        background-image:none;
+        height: auto;
+    }
+        .search input[type="text"], .search select, .search input[type="submit"] {
+         margin-bottom: 20px;
+        }
+         .search input[type="submit"] {
+    width: 200px;
+   
+}
+    
+    h2{
+            font-size: 28px;
+    }
+    .formBottom input[type="text"]{
+        width:100%;
+    }
+    #welcome p{
+            font-size: 12px;
+    }
+   
+    .lineInfoblock{
+        display:none;
+    }
+    .colorInfoblock{
+            float: none;
+                margin: 0 auto;
+    }
+    .headerInfoblock{
+        width:100%;
+    }
+  #copy i{
+      padding-top: 22px;
+  }
+  #welcome h2 {
+    margin-bottom: 40px!important;
+}
+
+}
+@media only screen and (max-width: 600px) {
+    #lastNews h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+    .getAjob#lastNews h3 {
+    margin-bottom: 0;
+     margin-top: 35px;
+
+    line-height: 56px;
+    font-size: 35px;
+}
+    .getAjob#lastNews h2 {
+    font-size: 24px;
+    line-height: 47px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .play, .stop{
+        display:none;
+    }
+      #welcome h2 {
+    margin-bottom: 20px!important;
+}
+    .subUpRight{
+        text-align:center;
+    }
+    .lastNewsPlay{
+        display:none;
+    }
+    .search input[type="text"], .search select, .search input[type="submit"] {
+    width: 85%;
+     margin-bottom: 20px;
+}
+    #lastNews h2 {
+    margin-bottom: 7px;
+    margin-top: 37px;
+    font-size: 18px;
+}
+    #lastNews h3 {
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 450px){
+    #welcome h2 {
+    margin-bottom: 20px!important;
+}
+    #slider1 .glyphicon-chevron-left, #slider1 .glyphicon-chevron-right{
+
+         top:50%;                                                              
+
+    }
+    .getAjob#lastNews h3 {
+ 
+    font-size: 22px;
+    line-height: 28px;
+}
+    .getAjob#lastNews h2 {
+    font-size: 20px;
+    line-height: 30px;
+   margin-bottom: 31px;
+    margin-top: 30px;
+}
+}
